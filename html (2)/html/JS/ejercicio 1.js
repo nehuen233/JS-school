@@ -79,5 +79,49 @@ function ejercicio4(){
     else{
         console.log("Es incorrecto");
     }
+}
+
+function ejercicio5(params){
+
+    let factor = prompt("Ingrese un numero para calcular el factorial");
+
+    let producto = 1;
+    for (let i = 1; i <= factor; i++) {
+        producto = producto * i;
+    }
+
+    console.log("El factorial de  "+ factor + " es:  "+producto);
+}
+
+function ejercicio6(){
+   
+    let par = prompt("Ingrese un numero  para calcular si es par o impar");
+    
+    let result = paroImp(par);
+
+    console.log(result);
 
 }
+
+function paroImp(num){
+    if(num == 0){
+        return "El numero es invalido";
+    }
+
+    if(num % 2 == 0){
+        return "el numero es par";
+    }else{
+        return "el numero es impar";
+    }
+    
+}
+function ejercicio7(caractecs){
+    var palabra = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+    
+}
+        
+
+   
+
+
+    
