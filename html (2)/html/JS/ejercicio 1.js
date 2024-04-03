@@ -115,6 +115,7 @@ function paroImp(num){
     }
     
 }
+
 function ejercicio7(){
     var palabra = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
     
@@ -122,15 +123,21 @@ function ejercicio7(){
 
     let palabras = prompt("Ingrese una frase por favor");
 
-    let = dato = valores(palabras);
+    let dato = valores(palabras);
 
     console.log(dato);
 }
 
 function valores(caractecs){
     if(valor == palabra.toUpperCase()){
-        console.log("Hola");
+        return  "La palabra es mayuscula";
     }
+
+    if(valor == palabra1.toLowerCase()){
+        return "La palabra es minuscula";
+    }
+    
+
 }
         
 
