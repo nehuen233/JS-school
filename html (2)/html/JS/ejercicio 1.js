@@ -129,7 +129,7 @@ function ejercicio7(){
 
 function valores(caractecs){
     if(valor == palabra.toUpperCase()){
-        return = ""
+        console.log("Hola");
     }
 }
         
