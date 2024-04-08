@@ -117,10 +117,7 @@ function paroImp(num){
 }
 
 function ejercicio7(){
-    var palabra = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
     
-    var palabra1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-
     let palabras = prompt("Ingrese una frase por favor");
 
     let dato = valores(palabras);
@@ -129,14 +126,23 @@ function ejercicio7(){
 }
 
 function valores(caractecs){
-    if(valor == palabra.toUpperCase()){
-        return  "La palabra es mayuscula";
-    }
+    let may = 0;
+    let min = 0;
 
-    if(valor == palabra1.toLowerCase()){
-        return "La palabra es minuscula";
+    for (let i = 0; i < caractecs.length; i++) {
+        if (caractecs.charAt(i) === caractecs.charAt(i).toUpperCase()) {
+            may++;
+        } else if (caractecs.charAt(i) === caractecs.charAt(i).toLowerCase()) {
+            min++;
+        }
     }
-    
+    if (may == 0) {
+        return "son todas minusculas";
+    } else if (min == 0) {
+        return "son todas mayusculas";
+    }else {
+        return "son mayusculas y minusculas";
+    }
 
 }
         
