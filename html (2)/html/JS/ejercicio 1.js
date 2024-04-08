@@ -145,6 +145,19 @@ function valores(caractecs){
     }
 
 }
+
+function ejercicio8(){
+    let text = prompt("Ingrese una palabra");
+    let cadena = texto;
+}
+
+function cadena(caracter){
+    cadena = cadena.toLowerCase().replace(/\s/g,  '');
+
+    return cadena === cadena.split('').reverse().join('');
+
+    console.log(cadena("Nehuen"));
+}
         
 
    
