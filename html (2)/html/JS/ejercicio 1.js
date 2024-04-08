@@ -115,9 +115,29 @@ function paroImp(num){
     }
     
 }
-function ejercicio7(caractecs){
+
+function ejercicio7(){
     var palabra = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
     
+    var palabra1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+    let palabras = prompt("Ingrese una frase por favor");
+
+    let dato = valores(palabras);
+
+    console.log(dato);
+}
+
+function valores(caractecs){
+    if(valor == palabra.toUpperCase()){
+        return  "La palabra es mayuscula";
+    }
+
+    if(valor == palabra1.toLowerCase()){
+        return "La palabra es minuscula";
+    }
+    
+
 }
         
 
