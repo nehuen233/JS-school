@@ -1,4 +1,4 @@
-function ejercicio1() {
+-function ejercicio1() {
 
     let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "junio", "julio", "Agosto", "septiembre", "Octubre", "noviembre", "diciembre"];
 
@@ -152,7 +152,7 @@ function ejercicio8(){
 
     let date = palabra1(result1);
 
-    
+    console.log(date);
 
 }
 function palabra1(texto){
