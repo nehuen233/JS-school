@@ -163,6 +163,17 @@ function esPalindromo(Adan){
             console.log("'" + Adan + "' no es un palindromo.");
         }
 }
+
+function ejercicio10(){
+    Array [  ];
+    let numeros = [];
+
+    for(i = 0; i<36000; i++){
+        numeros=Math.random(1;6);
+        
+
+    }
+}
         
 
    
