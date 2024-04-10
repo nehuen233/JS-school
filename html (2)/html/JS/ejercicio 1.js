@@ -158,8 +158,22 @@ function ejercicio8(){
 
 function palabra1(texto){
     
+    var textoLimpio = 
+    texto.replace(/ /g,  '' ).toLowerCase();
+
+    var textoInvertido =
+    textoLimpio.split('').reverse().join('');
+
+    if(textoLimpio === textoInvertido) {
+        return 'Es polindromo';
+    } else {
+        return 'No es palindromo';
+    }
+        console.log(palabra1('Adan'));
+        console.log(palabra1('Hola mundo'));
 
 }
+    
 
 
         
