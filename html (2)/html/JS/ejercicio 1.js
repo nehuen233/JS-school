@@ -155,11 +155,10 @@ function ejercicio8(){
     console.log(date);
 
 }
+
 function palabra1(texto){
     
-     
     var textoLimpio = texto.replace(/ /g,  '' ).toLowerCase();
-
     var textoInvertido = textoLimpio.split('').reverse().join('');
 
     if(textoLimpio === textoInvertido) {
@@ -167,8 +166,27 @@ function palabra1(texto){
     } else {
         return 'No es palindromo';
     }
-
 }
+
+function ejercicio10(){
+    num_array = [0,0,0,0,0,0,0,0,0,0,0,0,0];
+    for (i = 0; i < 36000; i++) {
+        
+        num1 = Math.floor(Math.random() * 6) + 1;
+
+        num2 = Math.floor(Math.random() * 6) + 1;
+
+        suma = num1 + num2;
+        num_array[suma]++;
+    }
+let acu = 0;
+    for (let i = 2; i < num_array.length; i++) {
+        console.log("El numero "+ i + " salio "+ num_array[i]+ " veces");
+        acu = acu + num_array[i];
+    }
+    console.log(acu);
+}
+
     
 
 
