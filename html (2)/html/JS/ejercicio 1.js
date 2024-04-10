@@ -147,16 +147,21 @@ function valores(caractecs){
 }
 
 function ejercicio8(){
-    let text = prompt("Ingrese una palabra");
-    let cadena = texto;
+  
+    let texto = prompt ("Ingrese una cadena de texto");
+    let Date = esPalindromo(texto);
+
+    console.log(Date);
 }
 
-function cadena(caracter){
-    cadena = cadena.toLowerCase().replace(/\s/g,  '');
+function esPalindromo(Adan){
+          Adan = Adan.toLowerCase().replace(/[a-zA-Z0-9]/g, '');
 
-    return cadena === cadena.split('').reverse().join('');
-
-    console.log(cadena("Nehuen"));
+        if (Adan === Adan.split('').reverse().join('')) {
+            console.log("'" + Adan + "' es un palindromo.");
+        } else{
+            console.log("'" + Adan + "' no es un palindromo.");
+        }
 }
         
 
