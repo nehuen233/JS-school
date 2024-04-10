@@ -169,8 +169,6 @@ function palabra1(texto){
     } else {
         return 'No es palindromo';
     }
-        console.log(palabra1('Adan'));
-        console.log(palabra1('Hola mundo'));
 
 }
     
