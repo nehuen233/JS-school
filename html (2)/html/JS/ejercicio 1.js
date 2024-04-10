@@ -152,17 +152,15 @@ function ejercicio8(){
 
     let date = palabra1(result1);
 
-    console.log(result1);
+    
 
 }
-
 function palabra1(texto){
     
-    var textoLimpio = 
-    texto.replace(/ /g,  '' ).toLowerCase();
+     
+    var textoLimpio = texto.replace(/ /g,  '' ).toLowerCase();
 
-    var textoInvertido =
-    textoLimpio.split('').reverse().join('');
+    var textoInvertido = textoLimpio.split('').reverse().join('');
 
     if(textoLimpio === textoInvertido) {
         return 'Es polindromo';
