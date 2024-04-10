@@ -148,32 +148,20 @@ function valores(caractecs){
 
 function ejercicio8(){
   
-    let texto = prompt ("Ingrese una cadena de texto");
-    let Date = esPalindromo(texto);
+    let result1 = prompt("Ingrese una cadena de texto");
 
-    console.log(Date);
+    let date = palabra1(result1);
+
+    console.log(result1);
+
 }
 
-function esPalindromo(Adan){
-          Adan = Adan.toLowerCase().replace(/[a-zA-Z0-9]/g, '');
+function palabra1(texto){
+    
 
-        if (Adan === Adan.split('').reverse().join('')) {
-            console.log("'" + Adan + "' es un palindromo.");
-        } else{
-            console.log("'" + Adan + "' no es un palindromo.");
-        }
 }
 
-function ejercicio10(){
-    Array [  ];
-    let numeros = [];
 
-    for(i = 0; i<36000; i++){
-        numeros=Math.random(1;6);
-        
-
-    }
-}
         
 
    
